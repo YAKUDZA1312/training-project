@@ -1,0 +1,33 @@
+:root {
+    --buttom-color: #7A9CA5;
+    --white-color: #FFF;
+    --black-color: #141414;
+    --section-information-background: #111E22;
+    
+}
+
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+    
+.header-nav {
+font-family: Playfair Display;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.25;
+color: var(--black-color);
+}
+.beautyness-title {
+    
+}
+.header-address {
+}
+.header-span {
+}
+.header-list {
+}
+.header-list-socials {
+}
