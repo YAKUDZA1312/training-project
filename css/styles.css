@@ -1,33 +1,195 @@
 :root {
-    --buttom-color: #7A9CA5;
-    --white-color: #FFF;
-    --black-color: #141414;
-    --section-information-background: #111E22;
-    
+  --buttom-color: #7a9ca5;
+  --white-color: #fff;
+  --black-color: #141414;
+  --section-information-background: #111e22;
+  --header-nav-color: #555;
 }
-
-
 
 body {
-    font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
-    
-.header-nav {
-font-family: Playfair Display;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.25;
-color: var(--black-color);
+
+.link {
+  text-decoration: none;
 }
-.beautyness-title {
-    
+
+.list {
+  list-style: none;
 }
-.header-address {
+
+/*-----------------Header-------------------- */
+
+.header-contacts-tel {
+  color: var(--black-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.18px;
 }
-.header-span {
-}
+
 .header-list {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--black-color);
+}
+
+.beautyness-title {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--black-color);
+}
+
+.header-address {
+  color: var(--black-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.18px;
+}
+
+.header-nav-links {
+  color: var(--header-nav-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
 }
 .header-list-socials {
+}
+
+.button {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+/* -----------Section-Hero----------- */
+.section-hero {
+  opacity: 0.2;
+  background: url(../img/Background.jpg), lightgray 50% / cover no-repeat;
+  mix-blend-mode: luminosity;
+}
+.hero-page {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.54;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.hero-title {
+  color: var(--white-color);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.55px;
+}
+
+/* ----------Section-Sherlin----------- */
+.page-preview {
+  color: var(--buttom-color);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.54;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.title-manager {
+  color: var(--black-color);
+  font-family: Playfair Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.45px;
+}
+.page-manager {
+  color: var(--header-nav-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* --------------Section-information--------------- */
+
+.section-informations {
+  background-color: #7a9ca5;
+}
+.beautyness {
+  color: var(--white-color);
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.8px;
+}
+.beautyness-title {
+  color: var(--white-color);
+  font-family: Playfair Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.beautyness-information-list {
+  color: var(--white-color);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: -0.17px;
+}
+
+.beautyness-time {
+  color: var(--white-color);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.17px;
+}
+
+.beautyness-adress-list {
+  color: var(--white-color);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.17px;
+}
+
+/* ---------Footer------------ */
+.footer {
+  background-color: var(--section-information-background);
+}
+.footer-page {
+  color: var(--white-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: -0.18px;
 }
