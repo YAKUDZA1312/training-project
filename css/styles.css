@@ -18,6 +18,30 @@ body {
   list-style: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+
+
 /*-----------------Header-------------------- */
 
 .header-contacts-tel {
